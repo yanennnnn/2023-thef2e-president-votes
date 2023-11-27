@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@400;500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500&display=swap");
+
+/* @font-face {
+  font-family: "Noto Serif TC";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500&display=swap");
+  uunicode-range: U+4E00-9FFF;
+}
+
+@font-face {
+  font-family: "Noto Sans TC";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap");
+  unicode-range: U+ff??;
+} */
 
 * {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Serif TC", "Noto Sans TC", sans-serif;
   position: relative;
   letter-spacing: 0.03em;
 }
 
 body {
   overflow-x: hidden;
+  @apply bg-gradient-primary;
 }
-
-
